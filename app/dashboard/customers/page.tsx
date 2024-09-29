@@ -18,7 +18,7 @@ export default async function Page() {
         {/* NOTE: Uncomment this code in Chapter 7 */}
 
         {<div className="bg-white px-6">
-          {customers.map((customer, i) => {
+          {customers.map((customer) => {
             return (
               <div key={customer.id} className="flex flex-row items-center justify-between py-4">
                 <p>{customer.name}</p>
